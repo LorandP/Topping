@@ -21,10 +21,9 @@ public class Application {
             cherry = valueOfStringOrCherry(map, "ice cream");
             map.put("ice cream", cherry);
         }
-        if (map.get("ice cream") != null) {
-
+        else
             map.put("ice cream", "cherry");
-        }
+        
         map.put("bread", "butter");
         return map;
     }
